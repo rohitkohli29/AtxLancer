@@ -3,6 +3,7 @@ import ChooseRoleCard from "../../ui/ChooseRoleCard";
 import { useNavigate } from "react-router-dom";
 import OnbordHader from "../../ui/OnbordHader";
 import NextStepButton from "../../ui/NextStepButton";
+// import { authValidationSchema,AuthSchema } from "@/validation/onboarding/validationSchema";
 
 function ChooseRole() {
   const navigate = useNavigate();
